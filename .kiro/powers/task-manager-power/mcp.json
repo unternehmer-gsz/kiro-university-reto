@@ -1,0 +1,10 @@
+{
+    "mcpServers": {
+        "task-power-mcp": {
+            "command": "node",
+            "args": [
+                "./dist/mcp/power-server.js"
+            ]
+        }
+    }
+}

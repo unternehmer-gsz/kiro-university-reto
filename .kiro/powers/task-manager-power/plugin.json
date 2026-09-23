@@ -1,0 +1,9 @@
+{
+    "name": "task-manager-power",
+    "version": "1.0.0",
+    "description": "Kiro Power para automatización y gestión avanzada de tareas",
+    "keywords": [
+        "task-power",
+        "manage-tasks"
+    ]
+}
