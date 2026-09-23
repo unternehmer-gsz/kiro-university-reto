@@ -1,0 +1,14 @@
+{
+    "mcpServers": {
+        "task-database-mcp": {
+            "command": "npx",
+            "args": [
+                "ts-node",
+                "src/mcp/taskMcpServer.ts"
+            ],
+            "env": {
+                "DB_CONNECTION": "sqlite://./tasks.sqlite"
+            }
+        }
+    }
+}
