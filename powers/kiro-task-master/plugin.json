@@ -1,0 +1,11 @@
+{
+    "name": "kiro-task-master",
+    "version": "1.0.0",
+    "description": "Power empaquetado y listo para distribución en el registro de Kiro",
+    "repository": "https://github.com/tu-usuario/kiro-task-master",
+    "keywords": [
+        "task-management",
+        "mcp-server",
+        "property-testing"
+    ]
+}
