@@ -1,0 +1,13 @@
+{
+    "version": "v1",
+    "cloudSession": {
+        "region": "us-east-1",
+        "syncSteering": true,
+        "syncHooks": true,
+        "syncAgents": true,
+        "environment": {
+            "NODE_ENV": "development",
+            "KIRO_CLOUD_SANDBOX": "enabled"
+        }
+    }
+}
