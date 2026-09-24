@@ -1,0 +1,33 @@
+{
+    "name": "task-expert-agent",
+    "description": "Agente especializado en arquitectura de la API de Tareas y testing de propiedades",
+    "tools": [
+        "read",
+        "write",
+        "shell"
+    ],
+    "excludedTools": [
+        "knowledge"
+    ],
+    "includeMcpJson": true,
+    "includePowers": true,
+    "resources": [
+        "file://./docs/feature_spec.md",
+        "file://./.kiro/steering/backend-guidelines.md"
+    ],
+    "permissions": {
+        "rules": [
+            {
+                "capability": "shell",
+                "match": [
+                    "npm test*",
+                    "npx eslint*"
+                ],
+                "effect": "allow"
+            }
+        ]
+    },
+    "prompt": "Eres un asistente de desarrollo experto en TypeScript, TDD y pruebas basadas en propiedades. Asegúrate de verificar siempre las especificaciones antes de proponer cambios.",
+    "model": "claude-sonnet-5",
+    "welcomeMessage": "Agente Task Expert activado y conectado al servidor MCP. ¿Qué módulo implementamos hoy?"
+}
